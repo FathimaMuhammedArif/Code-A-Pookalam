@@ -5,21 +5,31 @@ Welcome to CODE-A-പൂക്കളം, a creative coding challenge scheduled f
 
 
 ### Your Details
-- [Name] - [Branch] - [Semester]
+- [Fathima Muhammed Arif] - [CS] - [S1]
 
 
 
 ### Hosted Pookalam Link
-
+https://fathimamuhammedarif.github.io/Code-A-Pookalam/
 
 
 ### Pookalam Description
-Brief description about your pookalam. What makes it special and different.
+This Pookalam is a blend of traditional floral rangoli art with a geometric digital twist.What makes it special and different is the perfect symmetry and the way it combines modern digital design with the traditional spirit of Onam celebrations. Unlike freehand pookalams, this version uses sharp geometric shapes, precise alignment, and bold contrasting colors that make it stand out both digitally and culturally
 
 
 
 ### Technologies Used 
+HTML5 → for structuring the design (defining circles, petals, diamonds, and layout).
 
+CSS3 → for styling (colors, borders, shapes, gradients, and positioning).
+
+JavaScript (basic DOM manipulation) → for generating repeated elements (like petals and diamonds) dynamically instead of writing them one by one.
+
+VS Code → as the code editor for writing and testing the project.
+
+Git & GitHub → for version control and hosting the code online.
+
+GitHub Pages → to make the Pookalam design live on the web with a shareable link.
 
 ### Video explaining How you build the pookalam
 
