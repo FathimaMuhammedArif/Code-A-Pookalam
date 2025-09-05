@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pookalam Exact</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #222;
+    }
+
+    .pookalam {
+      position: relative;
+      width: 500px;
+      height: 500px;
+      border-radius: 50%;
+    }
+
+    /* Base rings */
+    .outer-white {
+      position: absolute;
+      inset: 0;
+      border-radius: 50%;
+      background: white;
+    }
+    .yellow-ring {
+      position: absolute;
+      inset: 25px;
+      border-radius: 50%;
+      background: gold;
+    }
+    .green-circle {
+      position: absolute;
+      inset: 50px;
+      border-radius: 50%;
+      background: green;
+    }
+
+    /* Petals (slimmer + correct positioning) */
+    .petal {
+      position: absolute;
+      width: 80px;   /* slimmer */
+      height: 180px; /* longer */
+      background: white;
+      border: 2px solid red;
+      border-radius: 50% / 50%;
+      top: 50%;
+      left: 50%;
+      transform-origin: center bottom; /* anchor bottom center */
+    }
+
+    /* Inner flower (3 concentric circles) */
+    .inner {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 3;
+    }
+    .circle1 {
+      width: 60px;
+      height: 60px;
+      background: orange;
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .circle2 {
+      width: 40px;
+      height: 40px;
+      background: pink;
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .circle3 {
+      width: 20px;
+      height: 20px;
+      background: deeppink;
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    /* Diamond border */
+    .diamond {
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      top: 50%;
+      left: 50%;
+      margin: -15px;
+      transform: rotate(45deg);
+    }
+    .diamond.red { background: red; }
+    .diamond.yellow { background: gold; }
+  </style>
+</head>
+<body>
+  <div class="pookalam">
+    <div class="outer-white"></div>
+    <div class="yellow-ring"></div>
+    <div class="green-circle"></div>
+
+    <!-- 6 petals -->
+    <script>
+      const pookalam = document.querySelector('.pookalam');
+      for (let i = 0; i < 6; i++) {
+        const petal = document.createElement('div');
+        petal.classList.add('petal');
+        petal.style.transform =
+          `translate(-50%, -100%) rotate(${i * 60}deg)`;
+        pookalam.appendChild(petal);
+      }
+
+      // Inner flower
+      const inner = document.createElement('div');
+      inner.classList.add('inner');
+      inner.innerHTML = `
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="circle3"></div>
+      `;
+      pookalam.appendChild(inner);
+
+      // Diamond border
+      for (let i = 0; i < 24; i++) {
+        const d = document.createElement('div');
+        d.classList.add('diamond');
+        d.classList.add(i % 2 === 0 ? 'red' : 'yellow');
+        d.style.transform =
+          `rotate(${i * 15}deg) translate(230px) rotate(45deg)`;
+        pookalam.appendChild(d);
+      }
+    </script>
+  </div>
+</body>
+</html>
