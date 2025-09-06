@@ -33,7 +33,7 @@ GitHub Pages → to make the Pookalam design live on the web with a shareable li
 
 ### Video explaining How you build the pookalam
 
-<video controls src="Code a pookalam recording.mp4" title="Title"></video>
+(https://github.com/FathimaMuhammedArif/Code-A-Pookalam/blob/main/Code%20a%20pookalam%20recording.mp4)
 
 ### Screenshots
 ![alt text](<Pookalam screenshot.png>)
