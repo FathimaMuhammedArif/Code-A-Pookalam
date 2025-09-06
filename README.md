@@ -5,7 +5,7 @@ Welcome to CODE-A-പൂക്കളം, a creative coding challenge scheduled f
 
 
 ### Your Details
-- [Fathima Muhammed Arif] - [CS] - [S1]
+- [Fathima Muhammed Arif] - [CS2] - [S1]
 
 
 
