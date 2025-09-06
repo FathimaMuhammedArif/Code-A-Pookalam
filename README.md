@@ -36,7 +36,7 @@ GitHub Pages → to make the Pookalam design live on the web with a shareable li
 
 
 ### Screenshots
-
+![alt text](<Pookalam screenshot.png>)
 
 
 Happy Onam ! <br>
