@@ -14,7 +14,7 @@ https://fathimamuhammedarif.github.io/Code-A-Pookalam/
 
 
 ### Pookalam Description
-This Pookalam is a blend of traditional floral rangoli art with a geometric digital twist.What makes it special and different is the perfect symmetry and the way it combines modern digital design with the traditional spirit of Onam celebrations. Unlike freehand pookalams, this version uses sharp geometric shapes, precise alignment, and bold contrasting colors that make it stand out both digitally and culturally
+This Pookalam is a blend of traditional floral rangoli art with a geometric digital twist.What makes it special and different is the perfect symmetry and the way it combines modern digital design with the traditional spirit of Onam celebrations. Unlike freehand pookalams, this version uses sharp geometric shapes, precise alignment, and bold contrasting colors that make it stand out both digitally and culturally.
 
 
 
@@ -23,7 +23,7 @@ HTML5 → for structuring the design (defining circles, petals, diamonds, and la
 
 CSS3 → for styling (colors, borders, shapes, gradients, and positioning).
 
-JavaScript (basic DOM manipulation) → for generating repeated elements (like petals and diamonds) dynamically instead of writing them one by one
+JavaScript (basic DOM manipulation) → for generating repeated elements (like petals and diamonds) dynamically instead of writing them one by one.
 
 VS Code → as the code editor for writing and testing the project.
 
@@ -31,13 +31,12 @@ Git & GitHub → for version control and hosting the code online.
 
 GitHub Pages → to make the Pookalam design live on the web with a shareable link.
 
-### Video explaining How you build the pookalam 
-(https://github.com/FathimaMuhammedArif/Code-A-Pookalam/blob/main/Code%20a%20pookalam%20recording.mp4)
+### Video explaining How you build the pookalam
 
 
 
 ### Screenshots
-![alt text](<Pookalam screenshot-1-1.png>)
+
 
 
 Happy Onam ! <br>
