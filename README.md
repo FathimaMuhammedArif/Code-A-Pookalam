@@ -23,7 +23,7 @@ HTML5 → for structuring the design (defining circles, petals, diamonds, and la
 
 CSS3 → for styling (colors, borders, shapes, gradients, and positioning).
 
-JavaScript (basic DOM manipulation) → for generating repeated elements (like petals and diamonds) dynamically instead of writing them one by one.
+JavaScript (basic DOM manipulation) → for generating repeated elements (like petals and diamonds) dynamically instead of writing them one by one
 
 VS Code → as the code editor for writing and testing the project.
 
@@ -31,12 +31,13 @@ Git & GitHub → for version control and hosting the code online.
 
 GitHub Pages → to make the Pookalam design live on the web with a shareable link.
 
-### Video explaining How you build the pookalam
-
+### Video explaining How you build the pookalam 
 (https://github.com/FathimaMuhammedArif/Code-A-Pookalam/blob/main/Code%20a%20pookalam%20recording.mp4)
 
+
+
 ### Screenshots
-![alt text](<Pookalam screenshot.png>)
+](<Pookalam screenshot-1.png>)
 
 
 Happy Onam ! <br>
